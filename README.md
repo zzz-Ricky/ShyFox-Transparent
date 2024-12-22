@@ -1,5 +1,5 @@
 # ShyFox-Transparent - A modification of ShyFox 3.8.1
-ShyFox-Transparent is a version of the ShyFox Firefox theme which replaces the opaque browser background with a semi-transparent dark background. This minor modification builds upon the excellent work of the original ShyFox creators. All instruction instructions remain the same as the original branch.
+ShyFox-Transparent is a version of the ShyFox Firefox theme which replaces the opaque browser background with a semi-transparent dark background. This minor modification builds upon the excellent work of the original ShyFox creators. All installation instructions remain the same as the original branch.
 
 Changes:
 * Modified corner radius variables in shy-variables.css to be slightly smaller
