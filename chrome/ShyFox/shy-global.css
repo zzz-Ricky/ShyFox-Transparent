@@ -57,9 +57,10 @@ Area where website is displayed
       position: absolute;
       inset: 0;
       border-radius: var(--big-rounding);
-      box-shadow: 0 0 0 100px var(--bg-col) !important;
+/*       box-shadow: 0 0 0 100px var(--bg-col) !important; */
       clip-path: inset(0);
       pointer-events: none;
+      background-color: transparent !important;
     }
   }
   
@@ -556,6 +557,10 @@ File Edit View History Bookmarks Tools Help
 #tabbrowser-tabpanels {
   & browser[type="content"] {
     margin: 0 !important;
+    border-radius: var(--big-rounding);
+    background-color: transparent !important;
+/*     clip-path: circle(60px at center); */
+    background-clip: padding-box;
   }
 }
 
