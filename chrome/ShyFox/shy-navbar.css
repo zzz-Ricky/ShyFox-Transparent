@@ -271,7 +271,8 @@ Navigation bar on top of the window
       
       top: calc(var(--top-margin) + var(--margin));
       
-      background-color: var(--tb-col) !important;
+/*       background-color: var(--tb-col) !important; */
+      background-color: transparent !important;
       
       /* corners, shadow */
       border: var(--outline) !important;
